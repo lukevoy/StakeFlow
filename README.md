@@ -21,7 +21,61 @@ StakeFlow is an intelligent staking protocol that monitors APR across multiple c
 
 ## Getting Started
 
-Coming soon...
+### Prerequisites
+
+- Node.js v18 or higher
+- npm or yarn
+- MetaMask or compatible Web3 wallet
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/lukevoy/StakeFlow.git
+cd StakeFlow
+```
+
+2. Install root dependencies:
+```bash
+npm install
+```
+
+3. Install backend dependencies:
+```bash
+cd backend
+npm install
+```
+
+4. Install frontend dependencies:
+```bash
+cd frontend
+npm install
+```
+
+5. Configure environment variables:
+```bash
+cp .env.example .env
+# Edit .env with your configuration
+```
+
+### Running the Application
+
+1. Compile smart contracts:
+```bash
+npm run compile
+```
+
+2. Start the backend server:
+```bash
+cd backend
+npm run dev
+```
+
+3. Start the frontend development server:
+```bash
+cd frontend
+npm run dev
+```
 
 ## License
 
