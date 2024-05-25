@@ -1,4 +1,5 @@
 import React from 'react';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (
@@ -8,10 +9,7 @@ function App() {
         <p>Cross-chain Staking Optimizer</p>
       </header>
       <main>
-        <div className="dashboard">
-          <h2>Dashboard</h2>
-          <p>Coming soon...</p>
-        </div>
+        <Dashboard />
       </main>
     </div>
   );
