@@ -1,0 +1,57 @@
+.wallet-connect {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.connect-button {
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.connect-button:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.connect-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.connected {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #1e2530;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+}
+
+.address {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.disconnect-button {
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid #8899a6;
+  border-radius: 6px;
+  color: #8899a6;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.disconnect-button:hover {
+  background: #8899a6;
+  color: #0f1419;
+}
+
