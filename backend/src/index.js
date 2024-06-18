@@ -3,6 +3,7 @@ const cors = require('cors');
 require('dotenv').config();
 
 const stakingRoutes = require('./routes/staking');
+const strategyRoutes = require('./routes/strategy');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -15,6 +16,7 @@ app.get('/health', (req, res) => {
 });
 
 app.use('/api/staking', stakingRoutes);
+app.use('/api/strategy', strategyRoutes);
 
 app.listen(PORT, () => {
   console.log(`StakeFlow backend running on port ${PORT}`);
