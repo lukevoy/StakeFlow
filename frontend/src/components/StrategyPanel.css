@@ -1,0 +1,82 @@
+.strategy-panel {
+  margin-top: 2rem;
+}
+
+.strategy-panel h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.strategies-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.strategy-card {
+  background: linear-gradient(135deg, #1e2530 0%, #2a3142 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 2rem;
+  transition: transform 0.2s ease;
+}
+
+.strategy-card:hover {
+  transform: translateX(4px);
+}
+
+.strategy-info h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.strategy-info p {
+  font-size: 0.9rem;
+  color: #8899a6;
+  margin: 0.3rem 0;
+}
+
+.strategy-metrics {
+  display: flex;
+  gap: 2rem;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.metric .label {
+  font-size: 0.85rem;
+  color: #8899a6;
+}
+
+.metric .value {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.status {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.status.active {
+  background: rgba(74, 222, 128, 0.2);
+  color: #4ade80;
+}
+
+.status.inactive {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
