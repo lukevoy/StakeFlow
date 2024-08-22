@@ -1,0 +1,49 @@
+.chain-selector {
+  margin-bottom: 2rem;
+}
+
+.chain-selector h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.chain-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.chain-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  background: #1e2530;
+  border: 2px solid #2a3142;
+  border-radius: 8px;
+  color: #8899a6;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.chain-button:hover {
+  border-color: #667eea;
+  color: #ffffff;
+}
+
+.chain-button.selected {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.chain-icon {
+  font-size: 1.3rem;
+}
+
+.chain-name {
+  font-weight: 500;
+}
+
