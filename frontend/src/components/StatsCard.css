@@ -1,0 +1,41 @@
+.stats-card {
+  background: linear-gradient(135deg, #1e2530 0%, #2a3142 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  min-width: 200px;
+}
+
+.stats-title {
+  font-size: 0.9rem;
+  color: #8899a6;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+}
+
+.stats-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.stats-subtitle {
+  font-size: 0.85rem;
+  color: #8899a6;
+  margin: 0;
+}
+
+.stats-trend {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.stats-trend.positive {
+  color: #4ade80;
+}
+
+.stats-trend.negative {
+  color: #ef4444;
+}
+
