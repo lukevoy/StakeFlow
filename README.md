@@ -112,6 +112,12 @@ See [SECURITY.md](./docs/SECURITY.md) for our security policy.
 
 See [CHANGELOG.md](./CHANGELOG.md) for version history.
 
+## Community
+
+- [Discord](https://discord.gg/stakeflow) (coming soon)
+- [Twitter](https://twitter.com/StakeFlow) (coming soon)
+- [GitHub Discussions](https://github.com/lukevoy/StakeFlow/discussions)
+
 ## License
 
 MIT
