@@ -77,6 +77,41 @@ cd frontend
 npm run dev
 ```
 
+## Smart Contracts
+
+### Core Contracts
+
+- **StakeVault**: Main vault for user deposits and withdrawals
+- **StrategyManager**: Multi-chain strategy management and rebalancing
+- **RewardDistributor**: Reward distribution and auto-compounding
+- **AccessControl**: Role-based permission system
+- **EmergencyPause**: Circuit breaker for security
+- **MultiSigWallet**: Multi-signature governance
+
+## API Documentation
+
+See [API.md](./docs/API.md) for detailed API documentation.
+
+## Architecture
+
+See [ARCHITECTURE.md](./docs/ARCHITECTURE.md) for system architecture details.
+
+## Deployment
+
+See [DEPLOYMENT.md](./docs/DEPLOYMENT.md) for deployment instructions.
+
+## Contributing
+
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting pull requests.
+
+## Security
+
+See [SECURITY.md](./docs/SECURITY.md) for our security policy.
+
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for version history.
+
 ## License
 
 MIT
