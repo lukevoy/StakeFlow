@@ -6,7 +6,9 @@
   "scripts": {
     "test": "hardhat test",
     "compile": "hardhat compile",
-    "deploy": "hardhat run scripts/deploy.js"
+    "deploy": "hardhat run scripts/deploy.js",
+    "migrate": "hardhat run scripts/migrate.js",
+    "verify": "hardhat run scripts/verify.js"
   },
   "keywords": ["staking", "defi", "blockchain", "yield-optimization"],
   "author": "StakeFlow Team",
